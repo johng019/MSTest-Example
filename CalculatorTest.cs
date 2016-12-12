@@ -13,7 +13,7 @@ namespace CalculatorTest
         //Try naming the method for the purpose it is intended
 
         [TestMethod]
-        public void TestAddMethod()
+        public void VerifyAddMethodReturnsCorrectSumOfTwoNumbers()
         {
             //Arrange..set up the test
             CalculatorClass obj = new CalculatorClass();
@@ -25,7 +25,7 @@ namespace CalculatorTest
 
         //continue to set up additional tests in the same manner
         [TestMethod]
-        public void TestSubtractMethod()
+        public void VerifySubtractMethodReturnsCorrectDifferenceOfTwoNumbers()
         {
             CalculatorClass obj2 = new CalculatorClass();
             obj2.Subtract(4, 5);
@@ -33,7 +33,7 @@ namespace CalculatorTest
         }
 
         [TestMethod]
-        public void TestMultiplyMethod()
+        public void VerifyMultiplyMethodReturnsCorrectProductOfTwoNumbers()
         {
             CalculatorClass obj3 = new CalculatorClass();
             obj3.Multiply(4, 5);
@@ -41,7 +41,7 @@ namespace CalculatorTest
         }
 
         [TestMethod]
-        public void TestDivideMethod()
+        public void VerifyDivideMethodReturnsCorrectDividendOfTwoNumbers()
         {
             CalculatorClass obj4 = new CalculatorClass();
             obj4.Add(4, 5);
